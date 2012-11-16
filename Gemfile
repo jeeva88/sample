@@ -21,4 +21,8 @@ gem 'jquery-rails'
 group :test, :development do
 	gem 'minitest-rails'
 	gem 'minitest-rails-capybara'
+	gem 'guard'
+	gem 'guard-rails'
+	gem 'guard-spork'
+	gem 'guard-minitest'
 end	
